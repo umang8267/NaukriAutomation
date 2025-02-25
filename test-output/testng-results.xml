@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-25T23:37:09 IST" name="Default suite" finished-at="2025-02-25T23:37:29 IST" duration-ms="20356">
+    <groups>
+    </groups>
+    <test started-at="2025-02-25T23:37:09 IST" name="Default test" finished-at="2025-02-25T23:37:29 IST" duration-ms="20356">
+      <class name="TestCases.LoginUser">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginUser@4233e892]" started-at="2025-02-25T23:37:09 IST" name="setup" finished-at="2025-02-25T23:37:14 IST" duration-ms="5149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginUsertoNaukriAPk()[pri:0, instance:TestCases.LoginUser@4233e892]" started-at="2025-02-25T23:37:14 IST" name="LoginUsertoNaukriAPk" finished-at="2025-02-25T23:37:29 IST" duration-ms="14663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUsertoNaukriAPk -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestCases.LoginUser@4233e892]" started-at="2025-02-25T23:37:29 IST" name="teardown" finished-at="2025-02-25T23:37:29 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestCases.LoginUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
