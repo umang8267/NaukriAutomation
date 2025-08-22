@@ -14,8 +14,8 @@ public class Homepage extends BaseFile{
 	public WebElement viewProfile;
 //	String url = driver.getCurrentUrl();
 	public void ClickingProfileBtn() {
-		
-		wt.until(ExpectedConditions.visibilityOfAllElements(viewProfile));
+		waitForVisibility(viewProfile);
+//		wt.until(ExpectedConditions.visibilityOfAllElements(viewProfile));
 		viewProfile.click();
 	} 
 }

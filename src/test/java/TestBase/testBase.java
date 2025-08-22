@@ -19,6 +19,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 //import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -28,7 +29,7 @@ public class testBase {
 	public Properties p;
 	public WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
-	@BeforeClass
+	@BeforeMethod
 	public void setup() throws IOException {
 
 		FileReader file = new FileReader("./src/test/resources/config.properties");
@@ -58,7 +59,7 @@ public class testBase {
 		driver.manage().window().maximize();
 	}
 
-	@AfterClass()
+	@BeforeMethod()
 	public void teardown() {
 		driver.quit();
 	}
